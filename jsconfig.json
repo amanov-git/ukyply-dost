@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+    },
+    "lib": [
+      "es2020",
+      "DOM"
+    ],
+    "moduleResolution": "node",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+  },
+  "include": [
+    "src"
+, "src/libs/pdf.worker.min.js"  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

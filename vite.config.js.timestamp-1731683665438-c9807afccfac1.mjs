@@ -1,0 +1,17 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/User11/Desktop/Orders/Projects/translate-app/ud-translator-app/client/node_modules/.pnpm/vite@5.4.2/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/User11/Desktop/Orders/Projects/translate-app/ud-translator-app/client/node_modules/.pnpm/@vitejs+plugin-react@4.3.1_vite@5.4.2/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import jsconfigPaths from "file:///C:/Users/User11/Desktop/Orders/Projects/translate-app/ud-translator-app/client/node_modules/.pnpm/vite-jsconfig-paths@2.0.1_vite@5.4.2/node_modules/vite-jsconfig-paths/dist/index.mjs";
+var vite_config_default = defineConfig({
+  plugins: [react(), jsconfigPaths()],
+  server: {
+    host: true
+  },
+  build: {
+    chunkSizeWarningLimit: 5120
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxVc2VyMTFcXFxcRGVza3RvcFxcXFxPcmRlcnNcXFxcUHJvamVjdHNcXFxcdHJhbnNsYXRlLWFwcFxcXFx1ZC10cmFuc2xhdG9yLWFwcFxcXFxjbGllbnRcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkM6XFxcXFVzZXJzXFxcXFVzZXIxMVxcXFxEZXNrdG9wXFxcXE9yZGVyc1xcXFxQcm9qZWN0c1xcXFx0cmFuc2xhdGUtYXBwXFxcXHVkLXRyYW5zbGF0b3ItYXBwXFxcXGNsaWVudFxcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vQzovVXNlcnMvVXNlcjExL0Rlc2t0b3AvT3JkZXJzL1Byb2plY3RzL3RyYW5zbGF0ZS1hcHAvdWQtdHJhbnNsYXRvci1hcHAvY2xpZW50L3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcbmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCdcbmltcG9ydCBqc2NvbmZpZ1BhdGhzIGZyb20gXCJ2aXRlLWpzY29uZmlnLXBhdGhzXCI7XG5cbi8vIGh0dHBzOi8vdml0ZWpzLmRldi9jb25maWcvXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICBwbHVnaW5zOiBbcmVhY3QoKSwganNjb25maWdQYXRocygpXSxcbiAgc2VydmVyOiB7XG4gICAgaG9zdDogdHJ1ZVxuICB9LFxuICBidWlsZDoge1xuICAgIGNodW5rU2l6ZVdhcm5pbmdMaW1pdDogNTEyMFxuICB9XG59KTsiXSwKICAibWFwcGluZ3MiOiAiO0FBQThhLFNBQVMsb0JBQW9CO0FBQzNjLE9BQU8sV0FBVztBQUNsQixPQUFPLG1CQUFtQjtBQUcxQixJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsTUFBTSxHQUFHLGNBQWMsQ0FBQztBQUFBLEVBQ2xDLFFBQVE7QUFBQSxJQUNOLE1BQU07QUFBQSxFQUNSO0FBQUEsRUFDQSxPQUFPO0FBQUEsSUFDTCx1QkFBdUI7QUFBQSxFQUN6QjtBQUNGLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
