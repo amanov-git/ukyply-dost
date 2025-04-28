@@ -18,3 +18,5 @@ Technologies Used
 Frontend: React.js
 
 This is my early project, now I consider to make a code more optimized.
+
+The project code considered to be improved by optimizing it for better developer experience.
